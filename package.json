@@ -1,0 +1,13 @@
+{
+  "name": "websocket-server-example",
+  "version": "1.0.0",
+  "description": "WebSocket server example using Node.js and ws library",
+  "main": "server.js",  // Assuming your server file is named server.js
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",  // For generating UUIDs
+    "ws": "^8.4.0"     // WebSocket library
+  }
+}
